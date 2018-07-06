@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Grid 'react-bootstrap/lib/Grid'; //object with class Container, if use {}, all components in lib, in our case -only part
+import Grid 'react-bootstrap/lib/Row';
+import Grid 'react-bootstrap/lib/Col';
+import styled from 'styled-components';
+
+
+
 class App extends Component {
   render() {
     return (

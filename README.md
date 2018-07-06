@@ -23,7 +23,12 @@ below.
 
 ----------------------------------------------------------------------------------------
 ## For developer:
+
 ### first for creating React project
 1) npm install -g create-react-app
 2) npx create-react-app slider
+3) npm install --save react-bootstrap
+4) styles use with CDN (https://react-bootstrap.github.io/)
+5) for fonts use google fonts
+6) npm install --save styled-components
 
