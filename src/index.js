@@ -8,7 +8,7 @@ import registerServiceWorker from './registerServiceWorker';
 function Hello(){
 	let phrase = "World"
 	return(
-		<h1>Hello {phrase}!</h1>
+		<h1>Hello {4+8}!</h1>
 	)
 }
 
