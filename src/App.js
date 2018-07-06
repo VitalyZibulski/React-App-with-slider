@@ -5,17 +5,23 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="wrapper">
+        <SayFullName name="Antony" surname="Antony1" link="gmail.com" />
+        <SayFullName name="Ron" surname="Ron1" link="mail.com" />
       </div>
     );
   }
+}
+
+function SayFullName(props){
+  return (
+    //if not use <div> we have browser mistake
+    //props Object with attributes, props only for reading
+    <div>
+      <h1>name - {props.name}, surname- {props.surname}</h1>
+      <a href={props.link}> My profile</a>
+    </div>
+  )
 }
 
 export default App;
