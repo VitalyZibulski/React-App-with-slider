@@ -23,7 +23,7 @@ below.
 
 ----------------------------------------------------------------------------------------
 ## For developer:
-# firt for creating React project
+### first for creating React project
 1) npm install -g create-react-app
 2) npx create-react-app slider
 
