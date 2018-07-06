@@ -23,7 +23,16 @@ function SayFullName(props){
 	)
 }
 
-const element = <SayFullName name="Antony" surname="Antony1" link="gmail.com" />
+function MeetAll(props){
+	return (
+		<div>
+			<SayFullName name="Antony" surname="Antony1" link="gmail.com" />
+			<SayFullName name="Ron" surname="Ron1" link="mail.com" />
+		</div>
+	)
+}
 
-ReactDOM.render(element, document.getElementById('root'));
+ 
+
+ReactDOM.render(<MeetAll/>, document.getElementById('root'));
 registerServiceWorker();
