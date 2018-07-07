@@ -14,7 +14,11 @@ import Menu from './components/Menu'
 class App extends Component {
   render() {
     return (
-      
+      <div className="App">
+        <Header/>
+        <Menu/>
+        <Main/>
+      </div>
     );
   }
 }
