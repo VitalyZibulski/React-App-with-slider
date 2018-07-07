@@ -6,6 +6,9 @@ import Grid from 'react-bootstrap/lib/Grid'; //object with class Container, if u
 
 import styled from 'styled-components';
 
+import Header from './components/Header'
+import Main from './components/Main'
+import Menu from './components/Menu'
 
 
 class App extends Component {
